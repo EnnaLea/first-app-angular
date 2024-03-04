@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
 
 # To try the application
-Link: first-app-angular-17fe1.web.app
+Link: (http://first-app-angular-17fe1.web.app)
 
 ## Development server
 
