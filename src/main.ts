@@ -5,11 +5,12 @@ import { AppComponent } from './app/app.component';
 import { provideRouter } from '@angular/router';
 
 import routeConfig from './app/routes';
+import { provideHttpClient, withFetch } from '@angular/common/http';
 
 bootstrapApplication(AppComponent,
   {
     providers: [
-      provideRouter(routeConfig)
+      provideRouter(routeConfig),
     ]
   })
   .catch((err) => console.error(err));
